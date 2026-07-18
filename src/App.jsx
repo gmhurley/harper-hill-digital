@@ -18,7 +18,7 @@ export default function App() {
       </header>
 
       <section className="border-b border-black/[0.06]">
-        <div className="mx-auto max-w-6xl px-6 py-6 md:py-20 md:px-10 lg:px-12">
+        <div className="mx-auto max-w-6xl px-6 py-6 md:py-14 md:px-10 lg:px-12">
           <div className="max-w-3xl">
             <span className="mb-4 inline-flex items-center rounded-full border border-coral-border bg-coral-tint px-3.5 py-1.5 text-[12.5px] font-semibold text-coral-dark">
               Winston-Salem, North Carolina
