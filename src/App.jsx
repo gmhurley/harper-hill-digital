@@ -18,19 +18,19 @@ export default function App() {
       </header>
 
       <section className="border-b border-black/[0.06]">
-        <div className="mx-auto max-w-6xl px-6 py-8 md:py-20 md:px-10 lg:px-12">
+        <div className="mx-auto max-w-6xl px-6 py-6 md:py-20 md:px-10 lg:px-12">
           <div className="max-w-3xl">
-            <span className="mb-5 inline-flex items-center rounded-full border border-coral-border bg-coral-tint px-3.5 py-1.5 text-[12.5px] font-semibold text-coral-dark">
+            <span className="mb-4 inline-flex items-center rounded-full border border-coral-border bg-coral-tint px-3.5 py-1.5 text-[12.5px] font-semibold text-coral-dark">
               Winston-Salem, North Carolina
             </span>
             <h1 className="font-display max-w-xl text-4xl font-bold leading-[1.08] text-ink md:text-5xl">
               Practical software, thoughtfully built.
             </h1>
-            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-body md:text-[17px]">
+            <p className="mt-4 max-w-2xl text-lg leading-relaxed text-body md:text-[17px]">
               Harper Hill Digital builds useful digital products and helps businesses turn ideas,
               bottlenecks, and rough concepts into working software.
             </p>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row md:mt-8">
+            <div className="mt-5 flex flex-col gap-3 sm:flex-row md:mt-8">
               <a
                 href="#contact"
                 className="rounded-[9px] bg-ink px-6 py-3.5 text-center text-[15px] font-semibold text-white shadow-sm transition hover:opacity-90"
