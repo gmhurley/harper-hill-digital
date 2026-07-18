@@ -3,13 +3,13 @@ import Logo from './Logo'
 export default function App() {
   return (
     <main className="min-h-screen bg-white font-sans text-ink">
-      <header className="border-b border-black/[0.06] bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10 lg:px-12">
+      <header className="sticky top-0 z-50 border-b border-black/[0.06] bg-white">
+        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-5 md:flex-row md:items-center md:justify-between md:gap-0 md:px-10 lg:px-12">
           <div className="flex items-center gap-3">
-            <Logo className="h-9 w-9" />
-            <span className="font-display text-2xl font-bold text-ink">Harper Hill Digital</span>
+            <Logo className="h-8 w-8 md:h-9 md:w-9" />
+            <span className="font-display text-xl font-bold text-ink md:text-2xl">Harper Hill Digital</span>
           </div>
-          <nav className="flex items-center gap-8 text-[14.5px] font-medium text-ink/80">
+          <nav className="flex items-center gap-6 text-sm font-medium text-ink/80 md:gap-8 md:text-[14.5px]">
             <a href="#about" className="hover:text-ink">About</a>
             <a href="#projects" className="hover:text-ink">Projects</a>
             <a href="#contact" className="font-bold text-coral-nav hover:opacity-80">Contact</a>
@@ -18,7 +18,7 @@ export default function App() {
       </header>
 
       <section className="border-b border-black/[0.06]">
-        <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 lg:px-12">
+        <div className="mx-auto max-w-6xl px-6 py-12 md:py-20 md:px-10 lg:px-12">
           <div className="max-w-3xl">
             <span className="mb-6 inline-flex items-center rounded-full border border-coral-border bg-coral-tint px-3.5 py-1.5 text-[12.5px] font-semibold text-coral-dark">
               Winston-Salem, North Carolina
