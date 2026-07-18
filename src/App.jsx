@@ -18,7 +18,7 @@ export default function App() {
       </header>
 
       <section className="border-b border-black/[0.06]">
-        <div className="mx-auto max-w-6xl px-6 py-6 md:py-14 md:px-10 lg:px-12">
+        <div className="mx-auto max-w-6xl px-6 py-6 md:px-10 lg:px-12">
           <div className="max-w-3xl">
             <span className="mb-4 inline-flex items-center rounded-full border border-coral-border bg-coral-tint px-3.5 py-1.5 text-[12.5px] font-semibold text-coral-dark">
               Winston-Salem, North Carolina
@@ -30,7 +30,7 @@ export default function App() {
               Harper Hill Digital builds useful digital products and helps businesses turn ideas,
               bottlenecks, and rough concepts into working software.
             </p>
-            <div className="mt-5 flex flex-col gap-3 sm:flex-row md:mt-8">
+            <div className="mt-5 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#contact"
                 className="rounded-[9px] bg-ink px-6 py-3.5 text-center text-[15px] font-semibold text-white shadow-sm transition hover:opacity-90"
